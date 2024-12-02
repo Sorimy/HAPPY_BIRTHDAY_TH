@@ -13,7 +13,6 @@ body {
   /* الخلفية المتحركة */
   .background {
     position: fixed;
-  
     top: 0;
     left: 0;
     width: 100%;
@@ -77,6 +76,30 @@ body {
     color: #fff;
   }
   
+  /* التصميم المتجاوب */
+@media (max-width: 600px) {
+h1{
+    font-size:2rem;
+}
+p{
+    font-size:1.2rem;
+}
+#countdown{
+    flex-direction: column;
+    gap:10px;
+}
+#countdown div{
+    padding:8px 15px;
+}
+#countdown span{
+    font-size:1.5rem;
+}
+
+
+}
+
+
+
   /* رسالة الاحتفال */
   #celebration {
     font-size: 2rem;
